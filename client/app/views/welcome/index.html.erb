@@ -1,0 +1,5 @@
+<%= label_tag 'Запрос:'%>
+<%= text_field_tag 'message', 'hello' %>
+<%= button_tag "Отправить", :type => 'button', :onclick => 'req();return false;' %>
+
+<p id="result"></p>
